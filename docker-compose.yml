@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  app:
+    image: sb_mvc_rest_container
+    ports:
+      - "8080:8080"
