@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/bharatchhajer/sb_mvc_rest_jpa_simple_container.git'
             }
         }
